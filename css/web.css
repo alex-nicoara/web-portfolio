@@ -8,7 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Universal Site Font */
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 /* Start Website CSS */
 html {
