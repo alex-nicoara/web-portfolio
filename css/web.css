@@ -15,7 +15,49 @@ html {
   line-height: 1.5em;
 }
 
+body {
+  height: 100%;
+}
+
 a, p {
   padding-bottom: 1.5em;
   text-decoration: none;
+}
+
+h1 {
+  font-size: 2.369em; /* 37.904 px */
+  line-height: 0.949767834em; /* 36 px / 37.904 px */
+  padding-bottom: 0.31658927em; /* 12 px / 37.904 px */
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.777em; /* 28.432 px */
+  line-height: 1.125492402em; /* 32 px / 28.432 px */
+  padding-bottom: 0.562746201em; /* 16 px / 28.432 px */
+  font-weight: 800;
+}
+
+h3 {
+  font-weight: 900;
+  padding-bottom: 0.6666666666em; /* 16 px / 24 px */
+}
+
+main, section {
+  padding: 1em;
+}
+
+main {
+  background-color: #F8F8F8;
+}
+
+.whitesection {
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.title-seperator {
+  width: 50%;
+  border-top: medium solid #ffcc33;
+  padding-bottom: 0.75em;
 }
