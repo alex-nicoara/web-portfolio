@@ -6,7 +6,8 @@
   <meta name="viewport"
         content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <meta name="description"
-        content="******The description of your website in search engines goes here."/>
+        content="Welcome to my online web portfolio. On my site you can learn
+                 about who I am, what I do, and see my work in action."/>
 
   <!-- Universal Font and Icons -->
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -16,33 +17,44 @@
   <link rel="stylesheet" href="css/web.css" />
 
   <!-- Baseline Grid -->
-  <!--<link rel="stylesheet" href="http://basehold.it/24">-->
+  <link rel="stylesheet" href="http://basehold.it/24">
 </head>
 <body>
-  <header class="site-header">
-    <!--<nav class="nav">
-      <ul>
-        <li style="background-color: red;">
-          <a id="menu-toggle-btn">
-            <span id="menu-icon">&#x2630;</span> MENU
-          </a>
-        </li>
-        <li><a href="">Home</a></li>
-        <li><a href="">Biography</a></li>
-        <li><a href="">Resume</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Contact</a></li>
+  <header id="site-header">
+    <nav id="nav">
+      <button class="fa fa-bars" id="menu-btn"></button>
+      <ul id="nav-options">
+        <li class="nav-item nav-active"><a href="">Home</a></li>
+        <li class="nav-item"><a href="">Biography</a></li>
+        <li class="nav-item"><a href="">Resume</a></li>
+        <li class="nav-item"><a href="">Projects</a></li>
+        <li class="nav-item"><a href="">Contact</a></li>
       </ul>
-    </nav>-->
+    </nav>
+
+    <div id="myphoto-info">
+      <img id="myphoto-img" src="img/beachchair2.png" alt="My Photo" />
+      <ul id="myphoto-text">
+        <li id="myphoto-name">Alexander Nicoara</li>
+        <li id="myphoto-occu">WEB ARCHITECT</li>
+      </ul>
+    </div>
+
     <ul class="social-links">
-      <li><i class="fa fa-facebook"></i></li>
-      <li><i class="fa fa-linkedin"></i></li>
-      <li><i class="fa fa-github"></i></li>
+      <li>
+        <a class="fa fa-facebook" href="https://www.facebook.com/alex.nicoara2"></a>
+      </li>
+      <li>
+        <a class="fa fa-linkedin" href="www.linkedin.com/in/alex-nicoara"></a>
+      </li>
+      <li>
+        <a class="fa fa-github" href="https://github.com/alex-nicoara/"></a>
+      </li>
     </ul>
   </header>
 
   <main>
-    <!--<section class="whitesection">
+    <section class="whitesection">
       <article id="serv-webdev">
         <h2>WEB DEVELOPMENT</h2>
         <p>
@@ -64,7 +76,7 @@
       </article>
     </section>
     <!--<section>
-      <h2>THIS IS TITLE 1</h2>
+      <h2>THIS IS TITLE</h2>
       <div class="title-seperator"></div>
       <p>Because I'm really good.</p>
     </section>-->

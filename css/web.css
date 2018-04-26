@@ -16,13 +16,11 @@ html {
 }
 
 body {
-  /*background: url('../img/rollercoaster.jpg') top center no-repeat;*/
-  /*background-size: cover;*/
-  background-color: skyblue;
   height: 100%;
 }
 
 a, p {
+  color: black;
   padding-bottom: 1.5em;
   text-decoration: none;
 }
@@ -46,6 +44,18 @@ h3 {
   padding-bottom: 0.6666666666em; /* 16 px / 24 px */
 }
 
+img,
+video,
+audio {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  background: url('../img/mobile-coaster.png') top center no-repeat;
+  background-size: cover;
+}
+
 main, section {
   padding: 1em;
 }
@@ -65,25 +75,115 @@ main {
 
 /* A. HEADER */
 
-/* A1. Social Media Icons */
-.social-links {
-  padding: 1.5em 0;
+/* A1. NAV */
+#menu-btn {
+  padding: 24px 36px;
+  font-size: 48px;
+  background-color: transparent;
+  border: none; outline: none;
+  color: white;
+}
+
+#menu-btn:active {
+  color: #ffcc33;
+}
+
+#nav-options {
+  display: none; /* toggle between none and flex */
   text-align: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+#nav-options > li {
+  height: 60px;
+  display: table;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#nav-options > li > a {
+  display: block;
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 18px 0;
+}
+
+#nav-options > li > a:hover {
+  color: #ffcc33;
+}
+
+.nav-active {
+}
+/* END NAV */
+
+/* A2. Photo */
+#myphoto-info {
+  text-align: center;
+  padding: 0;
+}
+
+#myphoto-img {
+  width: auto;
+  height: 10.5em;
+  padding: 1.5em 0em;
+  margin: auto;
+}
+
+#myphoto-text {
+  color: white;
+}
+
+#myphoto-text > li {
+  padding-bottom: 6px;
+}
+
+#myphoto-text > li:last-child {
+  padding-bottom: 18px;
+}
+
+#myphoto-name {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+#myphoto-occu {
+  font-size: 2em;
+  font-weight: 900;
+}
+/* END PHOTO */
+
+/* A3. Social Media Icons */
+.social-links {
+  padding: 6px 0px;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .social-links > li {
-  margin: 0em 0.5em;
-  width: 3em;
-  height: 3em;
-  border-radius: 1.5em;
+  margin: 0px 6px;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
   background-color: white;
   text-align: center;
   display: inline-block;
 }
 
-.social-links > li > i {
-  font-size: 1.5em;
-  padding-top: 0.5em;
+.social-links > li > a {
+  font-size: 16px;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0;
+}
+
+.social-links > li > a:hover {
+  color: #ffcc33;
+}
+
+.social-links > li > a:visited {
+  color: black;
 }
 
 /* END HEADER */
