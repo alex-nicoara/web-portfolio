@@ -21,36 +21,77 @@
 </head>
 <body>
   <header id="site-header">
-    <nav id="nav">
-      <button class="fa fa-bars" id="menu-btn"></button>
-      <ul id="nav-options">
-        <li class="nav-item nav-active"><a href="">Home</a></li>
-        <li class="nav-item"><a href="">Biography</a></li>
-        <li class="nav-item"><a href="">Resume</a></li>
-        <li class="nav-item"><a href="">Projects</a></li>
-        <li class="nav-item"><a href="">Contact</a></li>
-      </ul>
-    </nav>
+    <button class="fa fa-bars" id="menu-btn"></button>
 
-    <div id="myphoto-info">
-      <img id="myphoto-img" src="img/beachchair2.png" alt="My Photo" />
-      <ul id="myphoto-text">
-        <li id="myphoto-name">Alexander Nicoara</li>
-        <li id="myphoto-occu">WEB ARCHITECT</li>
-      </ul>
+    <div class="header-slider">
+      <div class="hslide first-slide" id="slide1">
+        <nav id="nav">
+          <ul id="nav-options">
+            <li class="nav-item nav-active"><a href="">Home</a></li>
+            <li class="nav-item"><a href="">Biography</a></li>
+            <li class="nav-item"><a href="">Resume</a></li>
+            <li class="nav-item"><a href="">Projects</a></li>
+            <li class="nav-item"><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hslide" id="slide2">
+        <div id="myphoto-info">
+          <img id="myphoto-img" src="img/beachchair2.png" alt="My Photo" />
+          <ul id="myphoto-text">
+            <li id="myphoto-name">Alexander Nicoara</li>
+            <li id="myphoto-occu">WEB ARCHITECT</li>
+          </ul>
+        </div>
+
+        <ul class="social-links">
+          <li>
+            <a class="fa fa-facebook" href="https://www.facebook.com/alex.nicoara2"></a>
+          </li>
+          <li>
+            <a class="fa fa-linkedin" href="www.linkedin.com/in/alex-nicoara"></a>
+          </li>
+          <li>
+            <a class="fa fa-github" href="https://github.com/alex-nicoara/"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+<!--
+    <div id="header-slide1">
+      <nav id="nav">
+        <ul id="nav-options">
+          <li class="nav-item nav-active"><a href="">Home</a></li>
+          <li class="nav-item"><a href="">Biography</a></li>
+          <li class="nav-item"><a href="">Resume</a></li>
+          <li class="nav-item"><a href="">Projects</a></li>
+          <li class="nav-item"><a href="">Contact</a></li>
+        </ul>
+      </nav>
     </div>
 
-    <ul class="social-links">
-      <li>
-        <a class="fa fa-facebook" href="https://www.facebook.com/alex.nicoara2"></a>
-      </li>
-      <li>
-        <a class="fa fa-linkedin" href="www.linkedin.com/in/alex-nicoara"></a>
-      </li>
-      <li>
-        <a class="fa fa-github" href="https://github.com/alex-nicoara/"></a>
-      </li>
-    </ul>
+    <div id="header-slide2">
+      <div id="myphoto-info">
+        <img id="myphoto-img" src="img/beachchair2.png" alt="My Photo" />
+        <ul id="myphoto-text">
+          <li id="myphoto-name">Alexander Nicoara</li>
+          <li id="myphoto-occu">WEB ARCHITECT</li>
+        </ul>
+      </div>
+
+      <ul class="social-links">
+        <li>
+          <a class="fa fa-facebook" href="https://www.facebook.com/alex.nicoara2"></a>
+        </li>
+        <li>
+          <a class="fa fa-linkedin" href="www.linkedin.com/in/alex-nicoara"></a>
+        </li>
+        <li>
+          <a class="fa fa-github" href="https://github.com/alex-nicoara/"></a>
+        </li>
+      </ul>
+    </div>-->
   </header>
 
   <main>
@@ -85,5 +126,9 @@
   <!--<footer>
     <p>This is my footer.</p>
   </footer>-->
+
+  <!-- Scripts go here -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts/site.js"></script>
 </body>
 </html>
