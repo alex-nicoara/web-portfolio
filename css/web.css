@@ -222,6 +222,9 @@ main {
 /* A3. Social Media Icons */
 #fb-ic {
   background-color: #3B5998;
+}
+
+#fb-ic > a {
   color: white;
 }
 
@@ -231,6 +234,9 @@ main {
 
 #ln-ic {
   background-color: #0077B5;
+}
+
+#ln-ic > a {
   color: white;
 }
 
@@ -240,6 +246,9 @@ main {
 
 #gh-ic {
   background-color: black;
+}
+
+#gh-ic > a {
   color: white;
 }
 
