@@ -220,6 +220,33 @@ main {
 /* END PHOTO */
 
 /* A3. Social Media Icons */
+#fb-ic {
+  background-color: #3B5998;
+  color: white;
+}
+
+#fb-ic > a:visited {
+  color: white;
+}
+
+#ln-ic {
+  background-color: #0077B5;
+  color: white;
+}
+
+#ln-ic > a:visited {
+  color: white;
+}
+
+#gh-ic {
+  background-color: black;
+  color: white;
+}
+
+#gh-ic > a:visited {
+  color: white;
+}
+
 .social-links {
   padding: 6px 0px;
   text-align: center;
@@ -248,10 +275,6 @@ main {
 
 .social-links > li > a:hover {
   color: #ffcc33;
-}
-
-.social-links > li > a:visited {
-  color: black;
 }
 
 /* END HEADER */
