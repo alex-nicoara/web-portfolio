@@ -61,7 +61,7 @@ main, section {
 }
 
 main {
-  /*background-color: #F8F8F8;*/
+  background-color: #F8F8F8;
 }
 
 #menu-toggle-btn {
@@ -174,15 +174,12 @@ main {
 #nav-options > li > a:hover {
   color: #ffcc33;
 }
-
-.nav-active {
-}
 /* END NAV */
 
 /* A2. Photo */
 #myphoto-info {
   text-align: center;
-  padding: 0;
+  padding: 0em;
   animation-name: photo_info;
   animation-duration: 1.5s;
 }
@@ -211,11 +208,13 @@ main {
 #myphoto-name {
   font-size: 1.5em;
   font-weight: 500;
+  text-transform: capitalize;
 }
 
 #myphoto-occu {
   font-size: 2em;
   font-weight: 900;
+  text-transform: uppercase;
 }
 /* END PHOTO */
 
@@ -257,26 +256,25 @@ main {
 }
 
 .social-links {
-  padding: 6px 0px;
+  padding: 1.125em 0em;
   text-align: center;
-  padding-bottom: 30px;
   animation-name: photo_info;
   animation-duration: 3s;
 }
 
 .social-links > li {
-  margin: 0px 6px;
-  width: 36px;
-  height: 36px;
-  border-radius: 18px;
+  margin: 0em 0.375em;
+  width: 2.25em;
+  height: 2.25em;
+  border-radius: 1.125em;
   background-color: white;
   text-align: center;
   display: inline-block;
 }
 
 .social-links > li > a {
-  font-size: 16px;
-  padding-top: 10px;
+  font-size: 1em;
+  padding-top: 0.625em;
   width: 100%;
   height: 100%;
   padding-bottom: 0;
@@ -287,6 +285,9 @@ main {
 }
 
 /* END HEADER */
+.top-article {
+  margin-bottom: 1.5em;
+}
 
 .whitesection {
   background-color: white;
@@ -297,4 +298,14 @@ main {
   width: 50%;
   border-top: medium solid #ffcc33;
   padding-bottom: 0.75em;
+}
+
+.section-icon {
+  font-size: 48px;
+  padding-bottom: 24px;
+}
+
+#talents {
+  background-color: white;
+  text-align: center;
 }
