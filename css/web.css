@@ -309,3 +309,89 @@ main {
   background-color: white;
   text-align: center;
 }
+
+/* For iPads and Larger Tablets */
+@media screen and (min-width: 700px) {
+  #menu-btn {
+    display: none;
+  }
+
+  .header-slider {
+    display: block;
+  }
+
+  .hslide {
+    min-width: 100vw;
+    transform: translateX(0vw);
+  }
+
+  #nav-options {
+    display: flex; /* toggle: flex */
+    text-align: center;
+    flex-direction: row;
+    padding: 1em;
+    margin-bottom: 4px;
+  }
+
+  #nav-options > li {
+    height: 60px;
+    padding: 0 1em;
+    display: table;
+    background: transparent;
+  }
+
+  #nav-options > li > a {
+    display: block;
+    color: white;
+    width: 100%;
+    height: 100%;
+  }
+
+  #nav-options > li > a:hover {
+    color: #ffcc33;
+  }
+
+  #myphoto-info {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  #myphoto-img {
+    margin: 0 36px;
+  }
+
+  .social-links {
+    padding: 1.125em;
+    text-align: right;
+  }
+
+  .top-article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .top-article > section {
+    width: 45%;
+  }
+
+  #other {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #other > section {
+    width: 45%;
+  }
+}
+
+/* For Desktop Computers */
+@media screen and (min-width: 1024px) {
+}
